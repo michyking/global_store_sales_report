@@ -4,7 +4,9 @@
 ## Introduction
 This report presents the results of a data analysis on the Superstore dataset, which contains information about the sales and profits of Global Superstore, an online retailer that operates in 147 countries and sells 3,788 products in various categories.
 
--Disclaimer:- All dataset does not represent any company but just a dummy datasets to demonstarate capabilities of Excel, Power BI.
+Disclaimer: All dataset does not represent any company but just a dummy datasets to demonstarate capabilities of Excel, Power BI.
+
+---
 
 **Excel Concepts applied:**
 - Custom Column, Unique(), Counta().
@@ -114,7 +116,7 @@ In other to acertain the causes of Nigeria's underperformance, we investigated t
 
 ![](img/q3bii.jpg)
 
-From the charts above, 905 quantities of product was demanded in Nigeria, far greater than other African Countries. The second chart showed that Nigeria, Zimbabwe and Uganda which exhibit negative profit all have the average discount rate of 70% per order. This means that **Global Super Store** selling there product in these countries are incurring losses.  The high discount rate may contribute to negative profit margins, as it significantly reduces the revenue generated per sale. Also, the shipping cost to Nigeria per order is $6.8 which is relatively low compared to some African countries which could also explain why Nigeria has the highest quantity of products demanded. 
+From the charts above, 905 quantities of product was demanded in Nigeria, far greater than other African Countries. The second chart showed that Nigeria, Zimbabwe and Uganda which exhibit negative profit all have the average discount rate of 70% per order. This means that **Global Super Store** selling their product in these countries are incurring losses.  The high discount rate may contribute to negative profit margins, as it significantly reduces the revenue generated per sale. Also, the shipping cost to Nigeria per order is $6.8 which is relatively low compared to some African countries which could also explain why Nigeria has the highest quantity of products demanded. 
 
 **4. Which product subcategory is the least profitable in Southeast Asia?**
 
