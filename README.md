@@ -1,8 +1,10 @@
 # Global Super Stores Sales Report (2011-2015)
-![](img/intro_img.png)
+![](img/intro_img.jpeg)
 
 ## Introduction
 This report presents the results of a data analysis on the Superstore dataset, which contains information about the sales and profits of Global Superstore, an online retailer that operates in 147 countries and sells 3,788 products in various categories.
+
+-Disclaimer:- All dataset does not represent any company but just a dummy datasets to demonstarate capabilities of Excel, Power BI.
 
 **Excel Concepts applied:**
 - Custom Column, Unique(), Counta().
@@ -11,6 +13,10 @@ This report presents the results of a data analysis on the Superstore dataset, w
 - DAX Concepts: Calculated column, Custom Column, CALENDARAUTO(), Year(), Month(), Format().
 - Data Modelling: Star Schema (*:1).
 
+The Report consists of three pages:
+- Home Page
+- Sub-category Report
+- Nigerian Profitability
 
 ## Problem Statement
 - What are the three countries that generated the highest total profit for Global Superstore in 2014?
@@ -141,3 +147,7 @@ To identify the most valuable customers in our sales data, we used the total num
 - **Eric Murdock** demanded 100 quantities of different products but most of the product he demanded are from the Storage and Art categories.
 
 
+## Conclusion & Recommendations
+
+- The average dicount rate given to Zimbabwe, Uganda and Nigeria should be reduced to aid more profitability in Africa.
+- Global Super Store should reduce production on the least profitable sub-categories like Tables, Supplies, Envelopes, Fastners and Labels in South Asia.
