@@ -4,7 +4,7 @@
 ## Introduction
 This report presents the results of a data analysis on the Superstore dataset, which contains information about the sales and profits of Global Superstore, an online retailer that operates in 147 countries and sells 3,788 products in various categories.
 
-Disclaimer: All dataset does not represent any company but just a dummy datasets to demonstarate capabilities of Excel, Power BI.
+Disclaimer: All datasets does not represent any company but just dummy datasets to demonstrate the capabilities of Excel, Power BI.
 
 ---
 
@@ -39,10 +39,10 @@ It contains 3 sheets/tables:
 3. RETURNS with 1079 rows and 3 columns
 
 ## Data Transformation/Cleaning
-Data was efficiently cleaned and transformed with the Power Query Editor of Power BI and excel. 
+Data was efficiently cleaned and transformed with the Power Query Editor of Power BI and Excel. 
 - Extrated Unique Order ID from the oder table in Excel, =UNIQUE(Orders!B2:B51291)
-- Also extrated Unique Customer names from the oder table in Excel, =UNIQUE(Orders!G2:G51291)
-- Making first row as headers in the PEOPle and RETURN tables.
+- Also extracted Unique Customer names from the oder table in Excel, =UNIQUE(Orders!G2:G51291)
+- Making the first row as headers in the PEOPLE and RETURN tables.
 - From the order data, we noticed that more than 80% of the postal code values were missing, so we discarded that column. - Corrected the data types for the date columns and changed them to date format. 
 - Applied the currency format to the columns that represented monetary values, such as shipping cost, profit, discount, and sales. 
 
@@ -73,11 +73,11 @@ Power BI automatically connected related tables resulting in a star schema model
 Despite generating a total profit of $504.2K in 2014, Global Superstore's profit distribution was uneven across countries. In fact, only three countries accounted for nearly half of the company's total profit. These Countries are :
 - United States with total profit of $93.5
 - Followed by India with $48.8
-- And Lastly, China with the total profit of $46.8 
+- And Lastly, China with a total profit of $46.8 
 
 This suggests that Global Superstore's performance varies across different countries. It is important for the store to identify the factors that contribute to its success in certain markets and replicate these factors in other markets.
 
-Also, the top 3 products for each of these countries is shown below:
+Also, the top 3 products for each of these countries are shown below:
 
 ![](img/q1b.jpg)
 
@@ -95,14 +95,14 @@ From the Analysis:
 
 These findings suggest that copiers are more expensive to ship than tables and machines. This could be due to a number of factors, such as the weight and dimensions of copiers, the need for special packaging to protect them from damage during shipping, and the use of specialized shipping carriers.
 
-**3. Compare Nigeria profitability in respect to other African countries while investigating the result.**
+**3. Compare Nigeria's profitability in respect to other African countries while investigating the result.**
 
 ![](img/q3.jpg)
 
 
 The chart shows the profits of different African countries in 2014. Most countries had a positive profit, but three had a negative profit. South Africa had the highest profit, followed by Morocco, Egypt, and the Democratic Republic of Congo. Senegal, Algeria, Tanzania, Ghana, Sudan, Cote d'Ivoire, and Mozambique also had positive profits, but lower than the top four. Nigeria had the biggest negative profit, followed by Zimbabwe and Uganda. These three countries were underperforming compared to the rest of the continent.
 
-In other to acertain the causes of Nigeria's underperformance, we investigated the quantities demanded, average shipping cost and average discount rate paying close attention to know Nigerian performance there.
+In other to ascertain the causes of Nigeria's underperformance, we investigated the quantities demanded, average shipping cost and average discount rate paying close attention to know Nigerian performance there.
 
 **Quantities Demanded**
 
@@ -116,13 +116,13 @@ In other to acertain the causes of Nigeria's underperformance, we investigated t
 
 ![](img/q3bii.jpg)
 
-From the charts above, 905 quantities of product was demanded in Nigeria, far greater than other African Countries. The second chart showed that Nigeria, Zimbabwe and Uganda which exhibit negative profit all have the average discount rate of 70% per order. This means that **Global Super Store** selling their product in these countries are incurring losses.  The high discount rate may contribute to negative profit margins, as it significantly reduces the revenue generated per sale. Also, the shipping cost to Nigeria per order is $6.8 which is relatively low compared to some African countries which could also explain why Nigeria has the highest quantity of products demanded. 
+From the charts above, 905 quantities of the product was demanded in Nigeria, far greater than in other African Countries. The second chart showed that Nigeria, Zimbabwe and Uganda which exhibit negative profit all have an average discount rate of 70% per order. This means that **Global Super Store** selling their product in these countries are incurring losses.  The high discount rate may contribute to negative profit margins, as it significantly reduces the revenue generated per sale. Also, the shipping cost to Nigeria per order is $6.8 which is relatively low compared to some African countries which could also explain why Nigeria has the highest quantity of products demanded. 
 
 **4. Which product subcategory is the least profitable in Southeast Asia?**
 
 ![](img/q4.jpg)
 
-Based on our analysis product subcategories in Southeast Asia that least profitable are table with the profit of -19k followed by supplies (-4k), envelopes, (-2k), fasteners (-2k) and Labels (-1k). 
+Based on our analysis product subcategories in Southeast Asia that are least profitable are table with a profit of -19k followed by supplies (-4k), envelopes, (-2k), fasteners (-2k) and Labels (-1k). 
 
 **5. Which city is the least profitable (in terms of average profit) in the United States?**
 
